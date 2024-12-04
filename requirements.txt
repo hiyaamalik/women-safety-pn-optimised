@@ -1,0 +1,6 @@
+opencv-python
+openvino
+numpy
+geocoder
+twilio
+geopy

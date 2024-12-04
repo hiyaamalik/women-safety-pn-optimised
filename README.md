@@ -12,7 +12,7 @@
 <h3>Usage:</h3>
 1.Download all the files including <mark>requirement.txt</mark><br>
 2. <mark>adyant_wsat.ipynb</mark> is the main file with all the code<br>
-3. There are .caffemodel,.prototxt files for direct feeding to opencv-model <br>
+3. There are .caffemodel,.prototxt files for direct feeding to opencv-model ( <a href="https://github.com/whoravinder/women-safety-tools"> Visit This Repo </a>)<br>
 4. .xml and .bin files are for OpenVINO usage <br>
 5. There is <mark>TWILIO</mark> Integration, for sending SMS, please replace (*) with your keys in order to avail that feature 
 <h3>Authorship</h3>

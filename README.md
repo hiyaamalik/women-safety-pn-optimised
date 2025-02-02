@@ -1,15 +1,14 @@
-# 🚀 Project N: Women Safety and Analytics Tool  
+## 🚀 Project N: Women Safety and Analytics Tool  
 **By Team Adyant**  
 
-[![GitHub License](https://img.shields.io/github/license/hiyaamalik/women-safety-pn-optimised)](LICENSE)  
-[![Python](https://img.shields.io/badge/Built%20With-Python-blue.svg)](https://www.python.org/)  
-[![OpenVINO](https://img.shields.io/badge/OpenVINO-Intel-blue)](https://docs.openvino.ai/latest/index.html)  
-[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)](https://opencv.org/)  
+[![Python](https://img.shields.io/badge/Built%20With-Python-blue.svg)](https://www.python.org/)  [![OpenVINO](https://img.shields.io/badge/OpenVINO-Intel-blue)](https://docs.openvino.ai/latest/index.html)  [![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)](https://opencv.org/)  
 
 ### 📌 Introduction  
 Women's safety is not just an issue—it's a necessity. **Project N** is an AI-driven **Women Safety and Analytics Tool** designed to proactively monitor and assist in distress situations. Existing solutions primarily focus on post-incident responses, leaving victims vulnerable. **Project N bridges this gap** with real-time intervention using **AI-based smart surveillance and a user-side mobile & web application.**  
 
 ### 🌟 Features  
+![image](https://github.com/user-attachments/assets/f6ca99da-bfd8-4350-84dd-c2610a6787d5)
+
 🔹 **Smart Surveillance System** (Proactive Monitoring)  
 - AI-powered **gender detection, crowd analysis, and SOS gesture recognition**.  
 - Identifies lone women or those in potentially unsafe environments.  
@@ -41,19 +40,8 @@ Women's safety is not just an issue—it's a necessity. **Project N** is an AI-d
 
 ## ⚙️ System Architecture  
 
-```mermaid
-graph TD;
-    CCTV_Feed-->AI_Analysis;
-    AI_Analysis-->|Identifies Threat|Alert_System;
-    Alert_System-->|Triggers|SOS;
-    SOS-->|Sends|Emergency_Contacts;
-    User_App-->|Triggers|SOS;
-    User_App-->|Provides|Safety_Resources;
-```
+![image](https://github.com/user-attachments/assets/2ad0217d-4f29-4391-937b-b1d1b01412ae)
 
-- **AI-Driven Monitoring:** CCTV feeds are analyzed in real-time.  
-- **Automated Alerts:** Once a distress situation is detected, alerts are sent instantly.  
-- **User-Side App:** Users can manually trigger SOS and access safety resources.  
 
 ---
 
@@ -66,24 +54,6 @@ graph TD;
 ✅ **Proactive Threat Detection** – Detects potential risks before escalation.  
 ✅ **User Empowerment** – Offers **multilingual chatbots, legal resources, and a safety hub**.  
 ✅ **Social & Policy Impact** – Supports urban safety initiatives and law enforcement assistance.  
-
----
-
-## 📂 Repository Structure  
-
-```
-├── .ipynb_checkpoints
-├── intel/                # AI models & pre-trained deep learning files
-│   ├── age_net.xml
-│   ├── gender_net.xml
-│   ├── person-detection-retail-0013.xml
-│   ├── face-detection-adas-0001.xml
-│   ├── ...
-├── Adyant.ipynb          # Jupyter Notebook with AI model implementation
-├── requirements.txt      # Dependencies for the project
-├── README.md             # Project documentation
-└── LICENSE               # License file
-```
 
 ---
 
@@ -106,15 +76,13 @@ jupyter notebook
 ```
 - Open **Adyant.ipynb** and execute the notebook.  
 
-
 ---
 
 ## 📜 License  
-This project is licensed under the **Apache 2.0**. See the [LICENSE](LICENSE) file for details.  
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
 
 ---
 
 ## ⭐ Support & Contributions  
 🌟 If you like this project, **give it a star!**  
 🚀 Contributions are welcome! Feel free to fork and submit PRs.  
-
